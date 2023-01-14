@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.MainFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:menu="@menu/menu_main" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:padding="16dp">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/liveBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/liveLeft"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:icon="@drawable/keyboard_arrow_left"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/liveTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/app_name"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/liveRight"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:icon="@drawable/keyboard_arrow_right"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/liveBox">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/newGame"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="@string/newGame"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/resume"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="@string/resume"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

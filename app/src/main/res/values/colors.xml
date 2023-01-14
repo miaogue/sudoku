@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <!--  配色1  -->
+    <color name="gridLineColor1">#91CEFD</color>
+    <color name="unitLineColor1">#D7E5F2</color>
+    <color name="numberColor1">#8A8F95</color>
+    <color name="numberBackground1">#DEE3E9</color>
+    <color name="numberHintBackground1">#89D0FA</color>
+    <color name="selectedBackground1">#4C99C7</color>
+    <color name="background1">#FFFFFF</color>
+
+    <!--  配色2  -->
+    <color name="gridLineColor2">#a9a278</color>
+    <color name="unitLineColor2">#d9d9d9</color>
+    <color name="numberColor2">#a2a2a2</color>
+    <color name="numberBackground2">#e8e8e8</color>
+    <color name="numberHintBackground2">#bab8a9</color>
+    <color name="selectedBackground2">#a9a077</color>
+    <color name="background2">#f9f9f9</color>
+
+    <!--  配色3  -->
+    <color name="gridLineColor3">#b9c3aa</color>
+    <color name="unitLineColor3">#585954</color>
+    <color name="numberColor3">#3e403b</color>
+    <color name="numberBackground3">#656762</color>
+    <color name="numberHintBackground3">#8ea878</color>
+    <color name="selectedBackground3">#b5caa3</color>
+    <color name="background3">#393b36</color>
+
+    <!--  配色4  -->
+    <color name="gridLineColor4">#e03e6f</color>
+    <color name="unitLineColor4">#37242a</color>
+    <color name="numberColor4">#858384</color>
+    <color name="numberBackground4">#303030</color>
+    <color name="numberHintBackground4">#764656</color>
+    <color name="selectedBackground4">#a683f7</color>
+    <color name="background4">#1c1a1b</color>
+
+    <!--  配色5  -->
+    <color name="gridLineColor5">#4f9c4e</color>
+    <color name="unitLineColor5">#2e302d</color>
+    <color name="numberColor5">#9a9c99</color>
+    <color name="numberBackground5">#232522</color>
+    <color name="numberHintBackground5">#355435</color>
+    <color name="selectedBackground5">#50993d</color>
+    <color name="background5">#111111</color>
+
+    <!--  配色6  -->
+    <color name="gridLineColor6">#7abbe5</color>
+    <color name="unitLineColor6">#232d36</color>
+    <color name="numberColor6">#8194a5</color>
+    <color name="numberBackground6">#1b252e</color>
+    <color name="numberHintBackground6">#48687d</color>
+    <color name="selectedBackground6">#5cb9f2</color>
+    <color name="background6">#0c151c</color>
+
+    <!--  配色7  -->
+    <color name="gridLineColor7">#a55c65</color>
+    <color name="unitLineColor7">#e3e3e3</color>
+    <color name="numberColor7">#afafaf</color>
+    <color name="numberBackground7">#efefef</color>
+    <color name="numberHintBackground7">#d6b8b6</color>
+    <color name="selectedBackground7">#af686c</color>
+    <color name="background7">#ffffff</color>
+
+    <!--  配色8  -->
+    <color name="gridLineColor8">#759fb7</color>
+    <color name="unitLineColor8">#d8d9db</color>
+    <color name="numberColor8">#9f9f9f</color>
+    <color name="numberBackground8">#e8e8e8</color>
+    <color name="numberHintBackground8">#acb6b8</color>
+    <color name="selectedBackground8">#759eba</color>
+    <color name="background8">#f9fafc</color>
+
+    <!--  配色9  -->
+    <color name="gridLineColor9">#d18345</color>
+    <color name="unitLineColor9">#626260</color>
+    <color name="numberColor9">#31312f</color>
+    <color name="numberBackground9">#666666</color>
+    <color name="numberHintBackground9">#a8846a</color>
+    <color name="selectedBackground9">#e3883f</color>
+    <color name="background9">#333331</color>
+
+    <!--  配色10  -->
+    <color name="gridLineColor10">#999067</color>
+    <color name="unitLineColor10">#313131</color>
+    <color name="numberColor10">#a1a1a1</color>
+    <color name="numberBackground10">#2d2d2d</color>
+    <color name="numberHintBackground10">#656356</color>
+    <color name="selectedBackground10">#999163</color>
+    <color name="background10">#181818</color>
+</resources>

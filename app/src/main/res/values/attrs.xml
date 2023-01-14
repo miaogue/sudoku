@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SudokuView">
+        <attr name="gridLineColor" format="color"/>
+        <attr name="gridLineWidth" format="float"/>
+        <attr name="unitLineColor" format="color"/>
+        <attr name="unitLineWidth" format="float"/>
+        <attr name="numberTextColor" format="color"/>
+        <attr name="numberTextSize" format="float"/>
+        <attr name="numberBackground" format="color"/>
+        <attr name="numberHintBackground" format="color"/>
+        <attr name="selectedBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>
